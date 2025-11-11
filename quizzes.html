@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCharge - Quizzes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="quizzes-page">
+    <header class="page-header">
+        <h1>EcoCharge</h1>
+    </header>
 
+    <main class="quizzes-container">
+        <h2 class="page-title">Quizzes</h2>
+        
+        <div class="quiz-grid">
+            <div class="quiz-card" onclick="startQuiz('sustainability-smarts')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Sustainability Smarts</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('reduce-reuse')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Reduce, Reuse, Quiz!</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('eco-warriors')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Eco Warriors Quiz</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('water-wise')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Water Wise Challenge</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('planet-protectors')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Planet Protectors Trivia</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('buzzing-sustainability')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Buzzing for Sustainability</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('sustainable-future')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Sustainable Future Check</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('charge-change')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Charge Towards Change</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('roots-responsibility')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Roots Of Responsibility</p>
+            </div>
+            
+            <div class="quiz-card" onclick="startQuiz('eco-iq')">
+                <div class="quiz-image"></div>
+                <p class="quiz-title">✓ Eco IQ Challenge</p>
+            </div>
+        </div>
+        
+        <!-- Quiz Display Area (hidden initially) -->
+        <div id="quizDisplay" style="display: none;">
+            <div id="questionContainer"></div>
+            <div id="feedback" class="feedback"></div>
+        </div>
+    </main>
+    
+    <script src="js/quiz.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
