@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCharge - Your Progress</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="badges-page">
+    <header class="page-header">
+        <h1>EcoCharge</h1>
+    </header>
 
+    <main class="badges-container">
+        <h2 class="page-title">Badges</h2>
+        
+        <!-- Badge Grid -->
+        <div class="badge-grid">
+            <div class="badge-icon" data-unlocked="false" title="Quiz Master"></div>
+            <div class="badge-icon" data-unlocked="false" title="Eco Warrior"></div>
+            <div class="badge-icon" data-unlocked="false" title="Green Pioneer"></div>
+            <div class="badge-icon" data-unlocked="false" title="Water Saver"></div>
+            <div class="badge-icon" data-unlocked="false" title="Energy Expert"></div>
+            <div class="badge-icon" data-unlocked="false" title="Waste Reducer"></div>
+        </div>
+        
+        <!-- Progress Section -->
+        <section class="progress-section">
+            <h3>Your Progress</h3>
+            
+            <div class="progress-info">
+                <p class="progress-label">Overall Progress</p>
+                <div class="progress-container">
+                    <div class="progress-bar" id="overallProgress" style="width: 65%;">65%</div>
+                </div>
+            </div>
+            
+            <!-- Stats Grid -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <p class="stat-value" id="modulesCompleted">4</p>
+                    <p class="stat-label">Completed Modules</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-value" id="pointsEarned">2,450</p>
+                    <p class="stat-label">Points Earned</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/progress.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
